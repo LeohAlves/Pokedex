@@ -1,0 +1,69 @@
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Pokedex.Models
+{
+    [Table("Pokemons")]
+    public class Pokemons
+    {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        public uint Number { get; set; }
+        
+
+        [Display(Name ="Pokémon Base")]
+        public uint? EvolvedFrom { get; set; }                
+        [Display(Name ="Pokémon Base")]
+        [ForeignKey("EvolvedFrom")]
+        public Pokemons? PokemonBase { get; set; }
+
+
+        [Display(Name ="Geração")]
+        [Required(ErrorMessage ="Por favor, informe a geração do pokémon" )]
+        public uint GenerationId{ get; set; }
+
+
+        [Display(Name ="Geração")]
+        [ForeignKey("Generation")]
+        public Generation Generation { get; set; } = new();
+        
+
+        [Display(Name ="Gênero")]
+        [Required(ErrorMessage ="Por favor, informe o gênero do pokémon" )]
+        public uint GenderId{ get; set; }
+
+
+        [Display(Name ="Gênero")]
+        [ForeignKey("GenderId")]
+        public Gender Gender { get; set; } = new();
+
+
+        [Display(Name = "Nome")]
+        [Required(ErrorMessage = "Por favor, informe o nome")]
+        [StringLength(30, ErrorMessage = "O nome deve possuir no máximo 30 caracteres")]
+        public string Name { get; set; } = string.Empty;
+
+
+        [Display(Name = "Descrição")]
+        [StringLength(1000, ErrorMessage = "A descrição deve possuir no máximo 1000 caracteres")]
+        public string? Description { get; set; }
+
+
+        [Display( Name ="Altura")]
+        [Required(ErrorMessage =" Por favor, informe a altura")]
+        [Column(TypeName = "decimal(5,2)")]
+        public double Height { get; set; }
+
+
+        [Display( Name ="Peso")]
+        [Required(ErrorMessage =" Por favor, informe o peso")]
+        [Column(TypeName = "decimal(7,3)")]
+        public double Weight { get; set; }
+
+
+        [Display(Name = "Imagem")]
+        [StringLength(200)]
+        public string? Image { get; set; }
+    }
+}
