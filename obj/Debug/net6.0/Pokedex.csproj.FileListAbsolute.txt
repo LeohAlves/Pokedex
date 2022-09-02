@@ -50,3 +50,10 @@ C:\Users\etec\Desktop\GitHub\Pokedex\obj\Debug\net6.0\refint\Pokedex.dll
 C:\Users\etec\Desktop\GitHub\Pokedex\obj\Debug\net6.0\Pokedex.pdb
 C:\Users\etec\Desktop\GitHub\Pokedex\obj\Debug\net6.0\Pokedex.genruntimeconfig.cache
 C:\Users\etec\Desktop\GitHub\Pokedex\obj\Debug\net6.0\ref\Pokedex.dll
+C:\Users\etec\Desktop\GitHub\Pokedex\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\etec\Desktop\GitHub\Pokedex\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\etec\Desktop\GitHub\Pokedex\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\etec\Desktop\GitHub\Pokedex\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\etec\Desktop\GitHub\Pokedex\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\etec\Desktop\GitHub\Pokedex\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\etec\Desktop\GitHub\Pokedex\obj\Debug\net6.0\Pokedex.csproj.CopyComplete
