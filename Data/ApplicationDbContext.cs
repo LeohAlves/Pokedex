@@ -41,9 +41,9 @@ protected override void OnModelCreating(ModelBuilder builder)
                 pt => new { pt.PokemonNumber, pt.TypeId }
             );
             builder.Entity<PokemonTypes>()
-                .HasOne(pa => pa.Pokemon)
+                .HasOne(pt => pt.Pokemon)
                 .WithMany(p => p.Types)
-                .HasForeignKey(pa => pa.PokemonNumber);
+                .HasForeignKey(pt => pt.PokemonNumber);
 
             builder.Entity<PokemonTypes>()
                 .HasOne(pa => pa.Type)

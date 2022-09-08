@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\etec\\Desktop\\GitHub\\Pokedex\\Pokedex.csproj": {}
+    "C:\\Users\\etec\\Desktop\\Pokedex\\Pokedex.csproj": {}
   },
   "projects": {
-    "C:\\Users\\etec\\Desktop\\GitHub\\Pokedex\\Pokedex.csproj": {
+    "C:\\Users\\etec\\Desktop\\Pokedex\\Pokedex.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\etec\\Desktop\\GitHub\\Pokedex\\Pokedex.csproj",
+        "projectUniqueName": "C:\\Users\\etec\\Desktop\\Pokedex\\Pokedex.csproj",
         "projectName": "Pokedex",
-        "projectPath": "C:\\Users\\etec\\Desktop\\GitHub\\Pokedex\\Pokedex.csproj",
+        "projectPath": "C:\\Users\\etec\\Desktop\\Pokedex\\Pokedex.csproj",
         "packagesPath": "C:\\Users\\etec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\etec\\Desktop\\GitHub\\Pokedex\\obj\\",
+        "outputPath": "C:\\Users\\etec\\Desktop\\Pokedex\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\etec\\AppData\\Roaming\\NuGet\\NuGet.Config",
