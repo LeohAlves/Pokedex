@@ -10,15 +10,10 @@ namespace Pokedex.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public uint Id { get; set; }
-
+        
         [Display(Name = "Nome")]
-        [Required(ErrorMessage = "Por favor, informe o nome")]
-        [StringLength(20, ErrorMessage = "O nome deve possuir no máximo 20 caracteres")]
+        [Required(ErrorMessage = "Por favor, informe o Nome")]
+        [StringLength(20, ErrorMessage = "O Nome deve possuir no máximo 20 caracteres")]
         public string Name { get; set; } = string.Empty;
-
-        [Display(Name = "Mídia")]
-        [Required(ErrorMessage = "Por favor, informe a Mídia")]
-        [StringLength(1, ErrorMessage = "A Mídia deve possuir no máximo 1 caracteres")]
-        public string Midia { get; set; } = string.Empty;
     }
 }

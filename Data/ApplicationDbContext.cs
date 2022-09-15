@@ -5,19 +5,20 @@ namespace Pokedex.Data
 {
     public class ApplicationDbContext : DbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base (options)
-        {            
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        {
         }
+
         public DbSet<Abilities> Abilities { get; set; }
-        public DbSet<Gender> Genders { get; set; }   
-        public DbSet<Generation> Generations { get; set; }   
-        public DbSet<Pokemons> Pokemons { get; set; }           
-        public DbSet<PokemonAbilities> PokemonAbilities { get; set; }           
-        public DbSet<PokemonTypes> PokemonTypes { get; set; }           
-        public DbSet<Types> Types { get; set; }           
+        public DbSet<Gender> Genders { get; set; }
+        public DbSet<Generation> Generations { get; set; }
+        public DbSet<Pokemons> Pokemons { get; set; }
+        public DbSet<PokemonAbilities> PokemonAbilities { get; set; }
+        public DbSet<PokemonTypes> PokemonTypes { get; set; }
+        public DbSet<Types> Types { get; set; }
         public DbSet<Weaknesses> Weaknesses { get; set; }
 
-protected override void OnModelCreating(ModelBuilder builder)
+        protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
 
@@ -47,7 +48,7 @@ protected override void OnModelCreating(ModelBuilder builder)
 
             builder.Entity<PokemonTypes>()
                 .HasOne(pa => pa.Type)
-                .WithMany(a => a.PokemonsOfThisType)
+                .WithMany(t => t.PokemonsOfThisType)
                 .HasForeignKey(pa => pa.TypeId);
             #endregion
 
@@ -62,7 +63,7 @@ protected override void OnModelCreating(ModelBuilder builder)
 
             builder.Entity<Weaknesses>()
                 .HasOne(w => w.Type)
-                .WithMany(a => a.PokemonsWithThisWeaknesses)
+                .WithMany(t => t.PokemonsWithThisWeaknesses)
                 .HasForeignKey(w => w.TypeId);
             #endregion
         }
