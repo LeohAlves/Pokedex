@@ -52,7 +52,7 @@
     <script>
         function GetInfo(number)
         {
-            window.location = '@Url.Action("Details", "Home")';
+            window.location = '@Url.Action("Details", "Home")'+ '?number=' + number;
         }
     </script>
 }
