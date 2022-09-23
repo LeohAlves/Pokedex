@@ -48,7 +48,7 @@ namespace Pokedex.Data
 
             builder.Entity<PokemonTypes>()
                 .HasOne(pa => pa.Type)
-                .WithMany(t => t.PokemonsOfThisType)
+                .WithMany(t => t.PokemonsOfThisTypes)
                 .HasForeignKey(pa => pa.TypeId);
             #endregion
 

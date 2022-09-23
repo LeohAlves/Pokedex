@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\etec\\Desktop\\GitHub\\Pokedex\\Pokedex.csproj": {}
+    "C:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Pokedex.csproj": {}
   },
   "projects": {
-    "C:\\Users\\etec\\Desktop\\GitHub\\Pokedex\\Pokedex.csproj": {
+    "C:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Pokedex.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\etec\\Desktop\\GitHub\\Pokedex\\Pokedex.csproj",
+        "projectUniqueName": "C:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Pokedex.csproj",
         "projectName": "Pokedex",
-        "projectPath": "C:\\Users\\etec\\Desktop\\GitHub\\Pokedex\\Pokedex.csproj",
+        "projectPath": "C:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Pokedex.csproj",
         "packagesPath": "C:\\Users\\etec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\etec\\Desktop\\GitHub\\Pokedex\\obj\\",
+        "outputPath": "C:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\etec\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,16 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.8, )"

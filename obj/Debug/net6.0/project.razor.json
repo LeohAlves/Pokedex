@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\etec\\Desktop\\Pokedex\\Pokedex.csproj",
+  "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Pokedex.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16298,43 +16298,178 @@
   "RootNamespace": "Pokedex",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\etec\\Desktop\\Pokedex\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Types\\Edit.cshtml",
+      "TargetPath": "Views\\Types\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\etec\\Desktop\\Pokedex\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Abilities\\Index.cshtml",
+      "TargetPath": "Views\\Abilities\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\etec\\Desktop\\Pokedex\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Admin\\Index.cshtml",
+      "TargetPath": "Views\\Admin\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\etec\\Desktop\\Pokedex\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Abilities\\Details.cshtml",
+      "TargetPath": "Views\\Abilities\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\etec\\Desktop\\Pokedex\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\etec\\Desktop\\Pokedex\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Genders\\Create.cshtml",
+      "TargetPath": "Views\\Genders\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\etec\\Desktop\\Pokedex\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Generations\\Create.cshtml",
+      "TargetPath": "Views\\Generations\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Types\\Index.cshtml",
+      "TargetPath": "Views\\Types\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Generations\\Details.cshtml",
+      "TargetPath": "Views\\Generations\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Shared\\_LayoutAdmin.cshtml",
+      "TargetPath": "Views\\Shared\\_LayoutAdmin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\etec\\Desktop\\Pokedex\\Views\\Home\\Details.cshtml",
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Types\\Details.cshtml",
+      "TargetPath": "Views\\Types\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Genders\\Edit.cshtml",
+      "TargetPath": "Views\\Genders\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Types\\Delete.cshtml",
+      "TargetPath": "Views\\Types\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Abilities\\Create.cshtml",
+      "TargetPath": "Views\\Abilities\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Generations\\Index.cshtml",
+      "TargetPath": "Views\\Generations\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Abilities\\Delete.cshtml",
+      "TargetPath": "Views\\Abilities\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Home\\Details.cshtml",
       "TargetPath": "Views\\Home\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Pokemons\\Index.cshtml",
+      "TargetPath": "Views\\Pokemons\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Abilities\\Edit.cshtml",
+      "TargetPath": "Views\\Abilities\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Pokemons\\Delete.cshtml",
+      "TargetPath": "Views\\Pokemons\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Genders\\Delete.cshtml",
+      "TargetPath": "Views\\Genders\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Types\\Create.cshtml",
+      "TargetPath": "Views\\Types\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Genders\\Details.cshtml",
+      "TargetPath": "Views\\Genders\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Pokemons\\Create.cshtml",
+      "TargetPath": "Views\\Pokemons\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Generations\\Edit.cshtml",
+      "TargetPath": "Views\\Generations\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Pokemons\\Details.cshtml",
+      "TargetPath": "Views\\Pokemons\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Generations\\Delete.cshtml",
+      "TargetPath": "Views\\Generations\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Pokemons\\Edit.cshtml",
+      "TargetPath": "Views\\Pokemons\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\etec\\Desktop\\Nova pasta\\Pokedex\\Views\\Genders\\Index.cshtml",
+      "TargetPath": "Views\\Genders\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
